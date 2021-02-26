@@ -12,10 +12,12 @@
         box-shadow: 0 5px 5px rgba(0,0,0,.4);
         margin: 5em auto;
         display: flex;
+        
     }
+    
 }
 .company__info{
-	background-color: #cd29ee;
+	background-color:#15f546;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	display: flex;
@@ -40,20 +42,20 @@
 	.main-content{width: 70%;}
 }
 .row > h2{
-	color:#a524d8;
+	color:#15f546;
 }
 .login_form{
 	background-color: #fff;
 	border-top-right-radius:20px;
 	border-bottom-right-radius:20px;
-	border-top:1px solid rgb(157, 17, 221);
-	border-right:1px solid rgb(145, 2, 150);
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
 }
 form{
 	padding: 0 2em;
 }
 .form__input{
-	width: 100%;
+	width: 70%;
 	border:0px solid transparent;
 	border-radius: 0;
 	border-bottom: 1px solid #aaa;
@@ -64,22 +66,22 @@ form{
 	transition: all .5s ease;
 }
 .form__input:focus{
-	border-bottom-color: #b049f5;
-	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-bottom-color:#15f546;
+	box-shadow: 0 0 5px rgba(67, 0, 80, 0.4); 
 	border-radius: 4px;
 }
 .btn{
 	transition: all .5s ease;
-	width: 70%;
+	width: 50%;
 	border-radius: 30px;
-	color:#008080;
+	color:#15f546;
 	font-weight: 600;
 	background-color: #fff;
-	border: 1px solid #008080;
+	border: 1px solid#15f546;
 	margin-top: 1.5em;
 	margin-bottom: 1em;
 }
 .btn:hover, .btn:focus{
-	background-color: rgb(222, 149, 255);
+	background-color:#15f546;
 	color:#fff;
 }
